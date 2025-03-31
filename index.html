@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>TIT Developer Community</title>
+  <link rel="stylesheet" href="styles.css">
+  
+</head>
+<body>
+  <!-- navbar -->
+  <nav class="animate">
+
+    <div class= "logo">TIT Developer Community</div>
+    <div class="hamburger" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <ul id="nav-menu" style="cursor: pointer;">
+      <li><a  onclick="smoothScroll('home')" onclick="closeMenu()">Home</a></li>
+      <li><a  onclick="smoothScroll('about')" onclick="closeMenu()">About</a></li>
+      <li><a  onclick="smoothScroll('mentors')" onclick="closeMenu()">Mentors</a></li>
+      <li><a  onclick="smoothScroll('events')" onclick="closeMenu()">Events</a></li>
+      <li><a  onclick="smoothScroll('hall-of-fame')" onclick="closeMenu()">Hall of Fame</a></li>
+      <li><a  onclick="smoothScroll('testimonials')" onclick="closeMenu()">Testimonials</a></li>
+      <li><a  onclick="smoothScroll('how-to-join')" onclick="closeMenu()">How to Join</a></li>
+      <li><a  onclick="smoothScroll('contact')" onclick="closeMenu()">Contact</a></li>
+      <li><a  onclick="smoothScroll('faqs')" onclick="closeMenu()">FAQs</a></li>
+    </ul>
+  </nav>
+
+  <!-- Home Section with sliderrrrrrrrr-->
+
+  <section id="home" class="animate">
+
+    <div class="slider">
+      <!-- background -->
+      <div class="slides">
+        <div class="slide" style="background-image: url(images/home/WhatsApp\ Image\ 2024-04-24\ at\ 19.34.00_4d52b293.jpg)"></div>
+        <div class="slide" style="background-image: url(images/events/IMG_1590.JPG)"></div>
+        <div class="slide" style="background-image: url(images/events/IMG_1539.JPG)"></div>
+        <div class="slide" style="background-image: url(images/events/IMG_1570.JPG)"></div>
+        <div class="slide" style="background-image: url(images/events/IMG_1560.JPG)"></div>
+      </div>
+
+      <div class="slider-overlay">
+
+        <h1><span class="change-color">Empowering</span>
+            <span class="change-color">Juniors,</span>
+            <span class="change-color">Led</span>
+            <span class="change-color">by</span>
+            <span class="change-color">Seniors</span>
+        </h1>
+        <p id="frst-p">Join the Revolution and Build Your Future!</p>
+        <br>
+        <button onclick="smoothScroll('how-to-join')">Join Us Now</button>
+        <br>
+
+        <!-- Wall of Impact -->
+        <div class="impact">
+          
+          <div class="impact-item">
+            <h3 id="stat1">90%+</h3>
+            <p>ATS-Friendly Resumes Crafted</p>
+          </div>
+
+          <div class="impact-item">
+            <h3 id="stat2">15+</h3>
+            <p>Students in Machine Learning</p>
+          </div>
+
+          <div class="impact-item">
+            <h3 id="stat3">20+</h3>
+            <p>Future App Developers Trained</p>
+          </div>
+
+          <div class="impact-item">
+            <h3 id="stat4">30+</h3>
+            <p>Cybersecurity Enthusiasts Mentored</p>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+
+  <section id="about" class="animate">
+    <div class="container">
+      <h2>About TIT Developer Community</h2>
+      <div class="about-content">
+
+        <div>
+          <img src="images/events/IMG_1590.JPG" alt="Community">
+          <h3>Our Mission</h3>
+          <p>
+            -> TIT Developer Community is a student-led initiative bridging the gap between juniors and seniors through free mentorship. We empower students with real-world knowledge, industry insights, and hands-on learning.
+          </p>
+        </div>
+
+        <div>
+          <img src="images/events/IMG_1586.JPG" alt="Community">
+          <h3>Why Join Us?</h3>
+          <ul>
+            <li>Hands-on learning with real-world projects</li>
+            <li>Exclusive workshops and hackathons</li>
+            <li>Personalized mentorship from industry-ready seniors</li>
+            <li>Build a robust technical portfolio for placements</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Mentors-->
+
+
+  <section id="mentors" class="animate">
+    <div class="container">
+
+      <h2>Meet the Mentors</h2>
+      <div class="mentors">
+
+        <div class="mentor-card">
+          <img src="images/mentors/ankit kumar.jpg" alt="Ankit Kumar">
+          <div class="mentor-info">
+            <h3>"Ankit Kumar"</h3>
+            <a href="https://www.linkedin.com/in/ankitkumar0905/" target="_blank">LinkedIn Profile</a>
+          </div>
+        </div>
+
+        <div class="mentor-card">
+          <img src="images/mentors/Anand Soni.png" alt="Anand Soni">
+          <div class="mentor-info">
+            <h3>"Anand Soni"</h3>
+            <a href="https://www.linkedin.com/in/anandsoni992/" target="_blank">LinkedIn Profile</a>
+          </div>
+        </div>
+
+        <div class="mentor-card">
+          <img src="images/mentors/ankit patel .jpg" alt="Ankit Patel">
+          <div class="mentor-info">
+            <h3>"Ankit Patel"</h3>
+            <a href="https://www.linkedin.com/in/ankit-patel-563b9927b/" target="_blank">LinkedIn Profile</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Events Section -->
+
+  <section id="events" class="animate">
+    <div class="container">
+      <h2>Events</h2>
+      <div class="events">
+        
+        <div class="event-card">
+          <img src="images/events/Green Black Simple Modern Leadership Workshop Instagram Post (1).png" alt="Android Development Workshop">
+          <div class="event-info">
+            <h3>Android Development Workshop</h3>
+            <p>Learn the fundamentals of Android development in an engaging, hands-on workshop.</p>
+          </div>
+        </div>
+
+        <div class="event-card">
+          <img src="images/events/Blue Futuristic Technology Poster (2).png" alt="Web Development Hackathon">
+          <div class="event-info">
+            <h3>Web Development Hackathon</h3>
+            <p>Create innovative web solutions and compete in a dynamic hackathon.</p>
+          </div>
+        </div>
+
+        <div class="event-card">
+          <img src="images/events/Screenshot 2025-03-25 170709.png" alt="Coding Quest">
+          <div class="event-info">
+            <h3>Coding Quest</h3>
+            <p>Test your coding skills in this annual competition with exciting challenges.</p>
+          </div>
+        </div>
+
+        <div class="event-card">
+          <img src="images/home/Screenshot 2025-03-24 000110.png" alt="Regular Classes">
+          <div class="event-info">
+            <h3>Regular Classes</h3>
+            <p>Join our interactive Google Classroom sessions and live Google Meet classes.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Hall of Fame -->
+
+  <section id="hall-of-fame" class="animate">
+    <div class="container">
+      <h2>Hall of Fame</h2>
+      <div class="hall-of-fame">
+
+        <div class="fame-card">
+          <h3>Android Development</h3>
+          <p><b>Dipu Kumar (2nd Year):</b> 5+ projects, 4+ certifications</p>
+          <p><b>Aryan Sharma (3rd Year):</b> 10+ projects, 5+ hackathons, Play Store deployments</p>
+        </div>
+
+        <div class="fame-card">
+          <h3>Machine Learning</h3>
+          <p><b>Aman Mishra (2nd Year):</b> 5+ major projects, SIH 2024 Finalist</p>
+          <p><b>Deepika Deshmukh (3rd Year):</b> 10+ projects, 5+ hackathons</p>
+        </div>
+
+        <div class="fame-card">
+          <h3>Web Development</h3>
+          <p><b>Prakhar (2nd Year):</b> 10+ projects, SIH 2024 Finalist</p>
+          <p><b>Naman Kumar (3rd Year):</b> 5+ projects, secured internship</p>
+        </div>
+
+        <div class="fame-card">
+          <h3>Cybersecurity</h3>
+          <p><b>Akash Kumar (2nd Year):</b> 3+ projects, ATS-optimized resume</p>
+          <p><b>Mohd Meraaz (3rd Year):</b> Successfully completed cybersecurity training</p>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Gallery -->
+
+  <section id="testimonials" class="animate">
+    <div class="container">
+      <h2>Testimonials & Gallery</h2>
+
+      <div class="gallery">
+        <img src="images/events/IMG_1539.JPG" alt="Gallery Image 1">
+        <img src="images/events/IMG_1586.JPG" alt="Gallery Image 2">
+        <img src="images/events/IMG_1590.JPG" alt="Gallery Image 3">
+        <img src="images/events/IMG_1575.JPG" alt="Gallery Image 4">
+      </div>
+
+    </div>
+  </section>
+
+  <!-- How to Join -->
+
+  <section id="how-to-join" class="animate">
+    <div class="container">
+      <h2>How to Join?</h2>
+      <div class="about-content">
+
+        <div>
+          <h3>Coding Quest</h3>
+          <p>
+            Participate in our annual coding competition:
+            <br>• Round 1: MCQ-based (via our custom app)
+            <br>•• Round 2: Coding challenge on the Unstop platform
+          </p>
+          <p>••• 200+ participants, 60 finalists, amazing prizes and trophies.</p>
+        </div>
+
+        <div>
+          <h3>Registration Guide</h3>
+          <p>
+            Follow our simple, step-by-step instructions to register.
+            <br>Eligibility: Open for 1st to 4th-year students.
+            <br>Important Dates: Check our calendar for updates.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Contact US -->
+
+  <section id="contact" class="animate">
+    <div class="container">
+      <h2>Contact Us</h2>
+
+      <div class="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit" onclick="alert('Thank you for your message!')">Send Message</button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FAQs Section -->
+
+  <section id="faqs" class="animate">
+    <div class="container">
+      <h2>FAQs</h2>
+
+      <div class="faq">
+
+        <div class="faq-item">
+          <h4 onclick="toggleFaq(this)">What is TIT Developer Community?</h4>
+          <p>We are a student-led initiative providing mentorship, workshops, and hackathons to empower the next generation of tech leaders.</p>
+        </div>
+
+        <div class="faq-item">
+          <h4 onclick="toggleFaq(this)">How do I join?</h4>
+          <p>Simply follow the steps in the "How to Join" section and register through our platform.</p>
+        </div>
+
+        <div class="faq-item">
+          <h4 onclick="toggleFaq(this)">Are there any fees?</h4>
+          <p>No, our community is completely free and open to all aspiring tech enthusiasts.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+
+  <footer class="animate">
+    <p>&copy; TIT Developer Community. All rights reserved.</p>
+    <a onclick="smoothScroll('home')" style="cursor: pointer;">go to top</a>
+  </footer>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
